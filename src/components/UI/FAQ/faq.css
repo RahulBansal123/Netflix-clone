@@ -1,0 +1,42 @@
+.faqContainer {
+  text-align: center;
+  border-top: 8px solid #222;
+}
+.faqDetailsContainer,
+.faqDetails {
+  width: 60%;
+  background-color: #303030;
+  margin: 5px auto;
+  border-radius: 2px;
+}
+.faqHeadingContainer {
+  position: relative;
+  display: flex;
+  padding: 20px 33px;
+  cursor: pointer;
+}
+.faqHeadingContainer > h1 {
+  display: inline-block;
+  top: 3px;
+  position: absolute;
+  right: 20px;
+  font-weight: 400;
+}
+.faqHeadingContainer > h2 {
+  letter-spacing: 1px;
+  display: inline-block;
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: 300;
+}
+.faqDetails {
+  display: none;
+  text-align: left;
+  padding: 22px 33px;
+}
+.faqDetails > p {
+  color: #fff;
+  font-size: 1.625rem;
+  font-weight: 300;
+  line-height: 33px;
+}
