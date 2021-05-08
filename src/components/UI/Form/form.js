@@ -24,7 +24,7 @@ const Form = (props) => {
       <h5>Login With Facebook</h5>
       <h5 style={{ marginTop: '20px', fontSize: '18px' }}>
         New to Netlix?
-        <Link to="/">
+        <Link to="/Netflix-clone/">
           <span style={{ color: '#fff', cursor: 'pointer' }}> Sign up now</span>
         </Link>
       </h5>

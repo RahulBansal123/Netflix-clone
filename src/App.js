@@ -7,9 +7,14 @@ class App extends Component {
     return (
       <React.Fragment>
         <Switch>
-          <Route path="/in/login" exact component={SignInLayout} />;
-          <Route path="/" exact component={mainPage} />
-          <Redirect from="*" to="/" />
+          <Route
+            path="/Netflix-clone/in/login"
+            exact
+            component={SignInLayout}
+          />
+          ;
+          <Route path="/Netflix-clone/" exact component={mainPage} />
+          <Redirect from="*" to="/Netflix-clone/" />
         </Switch>
       </React.Fragment>
     );
